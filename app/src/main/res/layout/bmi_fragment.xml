@@ -1,0 +1,76 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".bmiFragment">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.myapplication.ui.viewmodel.BMIViewModel" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/height_cm"
+                        app:layout_constraintEnd_toStartOf="@id/tvWeight"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <NumberPicker
+                        android:id="@+id/heightNumberPicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toStartOf="@id/WeightNumberPicker"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tvHeight" />
+
+                    <TextView
+                        android:id="@+id/tvWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weight_kg"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@id/tvHeight"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <NumberPicker
+                        android:id="@+id/WeightNumberPicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@id/heightNumberPicker"
+                        app:layout_constraintTop_toBottomOf="@id/tvWeight" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/btnCalculateBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/calculate_bmi" />
+
+    </LinearLayout>
+
+</layout>

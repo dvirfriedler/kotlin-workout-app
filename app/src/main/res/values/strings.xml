@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Workout Application</string>
+    <string name="all_workouts">all workouts</string>
+    <string name="menus">menus</string>
+    <string name="your_workouts">your workouts</string>
+    <string name="workout_description">Workout Description</string>
+    <string name="workout_image_url">Workout Image URL</string>
+    <string name="workout_name">Workout Name</string>
+    <string name="select_an_exercise">Select an exercise</string>
+    <string name="name">Name: </string>
+    <string name="body_part">Body Part: </string>
+    <string name="target">Target: </string>
+    <string name="equipment">Equipment: </string>
+    <string name="no_workouts_available">No workouts available \nAdd workout from all workouts</string>
+
+    <string name="ex_add">Add exercise</string>
+    <string name="ex_remove">Remove exercise</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="was_removed">was removed from your workouts</string>
+    <string name="is_added">add to your workouts</string>
+    <string name="choose_calories_range_0_1000" translatable="false">Choose Calories Range (0 - 1000)</string>
+    <string name="the_recipe_shown_is_based_on_the_calories_you_choose" translatable="false">The recipes shown are based on the calories you chose.</string>
+    <string name="bmi_calculator" translatable="false">BMI</string>
+    <string name="view_pager" translatable="false">view pager</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="close">Close</string>
+    <string name="ingredient_measurement_format" translatable="false">%1$s - %2$s</string>
+
+</resources>

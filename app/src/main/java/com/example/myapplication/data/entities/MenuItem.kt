@@ -1,0 +1,47 @@
+package com.example.myapplication.data.entities
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "menuItems")
+data class MenuItem(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val recipe: String?,
+    val prep_time_in_minutes: Int?,
+    val cook_time_in_minutes: Int,
+    val difficulty: String?,
+    val ingredient_1: String?,
+    val ingredient_2: String?,
+    val ingredient_3: String?,
+    val ingredient_4: String?,
+    val ingredient_5: String?,
+    val ingredient_6: String?,
+    val ingredient_7: String?,
+    val ingredient_8: String?,
+    val ingredient_9: String?,
+    val ingredient_10: String?,
+    val measurement_1: Double?,
+    val measurement_2: Double?,
+    val measurement_3: Double?,
+    val measurement_4: Double?,
+    val measurement_5: Double?,
+    val measurement_6: Double?,
+    val measurement_7: Double?,
+    val measurement_8: Double?,
+    val measurement_9: Double?,
+    val measurement_10: Double?,
+    val directions_step_1: String?,
+    val directions_step_2: String?,
+    val directions_step_3: String?,
+    val directions_step_4: String?,
+    val directions_step_5: String?,
+    val directions_step_6: String?,
+    val directions_step_7: String?,
+    val directions_step_8: String?,
+    val directions_step_9: String?,
+    val directions_step_10: String?,
+    val image: String?,
+    val calories: Int,
+    val fat_in_grams: Double,
+    val protein_in_grams: Double,
+)

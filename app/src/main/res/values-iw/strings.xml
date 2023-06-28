@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="all_workouts">כל התרגילים</string>
+    <string name="menus">תפריטים</string>
+    <string name="your_workouts">התרגילים שלי</string>
+    <string name="workout_description">Workout Description</string>
+    <string name="bmi_calculator"> מחשבון BMI</string>
+    <string name="workout_image_url">Workout Image URL</string>
+    <string name="workout_name">שם תרגיל</string>
+    <string name="select_an_exercise">בחר תרגיל</string>
+    <string name="name">שם תרגיל:</string>
+    <string name="body_part">אזור:</string>
+    <string name="target">שריר: </string>
+    <string name="equipment">ציוד נדרש:</string>
+    <string name="no_workouts_available">אין תרגילים זמיניםn\ הוסף תרגיל מ ״כל התרגילים״</string>
+    <string name="ex_add">הוסף תרגיל</string>
+    <string name="ex_remove">הסר תרגיל</string>
+    <string name="ok">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="add"> האם להוסיף</string>
+    <string name="remove">האם להסיר</string>
+    <string name="was_removed">הוסר מ״תרגילים שלי״</string>
+    <string name="is_added">נוסף ל״תרגילים שלי״</string>
+    <string name="height_cm">גובה</string>
+    <string name="weight_kg">משקל</string>
+    <string name="calculate_bmi">חשב BMI</string>
+    <string name="close">סגור</string>
+
+    <!-- and so on for all the strings your app uses -->
+</resources>
+
+
